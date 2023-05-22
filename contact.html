@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Seguin CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="entet">
+            <div class="nomDev">
+                Alternant DevOps
+            </div>
+
+            <nav class="lien">
+                <ul>
+                    <li><a href="index.html">Expériences & Formations</a></li>
+                    <li><a href="hobby.html">Centres d'intérêt</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="moi">
+                <div class="nom">Yan Seguin</div>
+                <img src="images/oim.jpeg" alt="Yan Seguin" title="Bonjour à tous">
+                <!-- <img class="sebastien" src="images/oim.jpeg"  alt="Yan Seguin" title="Bonjour à tous">-->
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="page-contact">
+            <div class="mail">
+                <div>
+                    <h1>Contactez moi par mail</h1>
+                </div>
+                <a href="mailto:yan.seguin@le-campus-numerique.fr"><i class="fa-sharp fa-regular fa-envelope"></i></a>
+
+            </div>
+
+            <form method="post" action="https://httpbin.org/post">
+                <fieldset>
+                    <div class="formulaire">
+
+                        <div class="coordonnees">
+
+                            <div class="coordo">
+                                <p><label for="nom">Nom</label></p>
+                                <input class="le-bouton" type="text" name="nom" id="nom">
+                            </div>
+                            <div class="coordo">
+                                <p><label for="prenom">Prénom</label></p>
+                                <input class="le-bouton" type="text" name="prenom" id="prenom">
+                            </div>
+                            <div class="coordo">
+                                <p><label for="email">E-mail</label></p>
+                                <input class="le-bouton" type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class=textearea>
+                            <p><label for="commentaire">Message</label></p>
+                            <textarea id="commentaire" name="commentaire" class="le-bouton-textearea"
+                                autofocus> Saisissez ici...</textarea>
+                        </div>
+                    </div>
+
+
+                    <div class="liste-question">
+
+                        <div class="liste">
+                            <label for="lobby"> Un centre d'intérêt partagé ?</label>
+                            <select class="le-bouton-liste" name="lobby" id="lobby">
+                                <option value="cuisine">Cuisine</option>
+                                <option value="guitare">Guitare</option>
+                                <option value="echec">Les échecs</option>
+                                <option value="jeux">Les jeux de société</option>
+                                <option value="lowtech">Low-tech</option>
+                            </select>
+                        </div>
+
+                        <div class="question">
+
+                            <div class="dalto">
+                                <label>Êtes-vous daltonnien ?
+                                    <div class="y-n">
+                                        <input class="le-bouton-radio" type="radio" name="dalt" value="OUI">OUI
+                                        <input class="le-bouton-radio" type="radio" name="dalt" value="NON">NON
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="cnv">
+                                <label>Adepte de la communication non-violente ?
+                                    <div class="y-n">
+                                        <input class="le-bouton-radio" type="radio" name="communi" value=oui"
+                                            id="oui">OUI
+                                        <input class="le-bouton-radio" type="radio" name="communi" value="non"
+                                            id="non">NON
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class=envoyer>
+                            <button class="le-bouton-envoyer" type="submit">ENVOYER</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- On peut ajouter un certain nombre d'autres attributs à la balise  <input>  pour personnaliser son fonctionnement :
+
+            agrandir le champ avec  size  ;
+
+            limiter le nombre de caractères que l'on peut saisir avec  maxlength  ;
+
+            pré-remplir le champ avec une valeur par défaut à l'aide de  value  ;
+
+            donner une indication sur le contenu du champ avec  placeholder . Cette indication disparaîtra dès que le visiteur aura cliqué à l'intérieur du champ.
+        
+        
+
+
+            Mais on peut modifier la taille par défaut du  <textarea>, et ce, de deux façons différentes :
+
+En appliquant au  <textarea>  les propriétés CSS width  et height .
+
+En ajoutant à la balise  <textarea>  les attributs :
+
+rows  (indique le nombre de lignes qui peuvent être affichées) ;
+
+et  cols  (indique le nombre de colonnes qui peuvent être affichées). 
+
+Vous pouvez pré-remplir le  <textarea>  avec une valeur par défaut.
+Dans ce cas, on n'utilise pas l'attribut  value  : on écrit tout simplement le texte par défaut entre la balise ouvrante et la balise fermante !
+        -->
+    </main>
+
+
+    <footer>
+        <section class=footer>
+            <div class="linkedin"> <a href="https://fr.linkedin.com/in/yan-seguin-26204b170"><i
+                        class="fa-brands fa-linkedin"></i></a></div>
+            <div class="contact-foot"> <a href="contact.html"><i class="fa-sharp fa-regular fa-envelope"></i></a></div>
+        </section>
+    </footer>
+</body>
+
+</html>

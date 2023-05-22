@@ -1,0 +1,605 @@
+:root {
+    --font-size: 18px;
+    --spacing-default: 3rem;
+    --color-primary: #f07167;
+    --color-contrast: #33355f;
+    --color-background: #1f2039;
+    --color-white: #ffffff;
+    --color-text: white;
+
+    --width-site: 1200px;
+    --width-site-narrow: 600px;
+
+    font-size: var(--font-size);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+header {
+    background-color: rgb(98, 37, 241);
+    width: 100%;
+    height: 10%;
+}
+
+
+/*SECTION*/
+
+.sectionMainYan{
+    border: 3px solid rgb(221, 255, 0);
+    margin: 10px;
+  
+    padding: 6rem 1rem;
+}
+
+.sectionMainYan.is-clear{
+    border: 3px solid rgb(255, 0, 0);
+    margin: 10px;
+
+
+    background-color: var(--color-contrast);
+}
+
+
+.containeurYan{
+    padding: 1rem 3rem;
+    border: 3px solid rgb(240, 228, 228);
+
+    max-width: 1640px;
+    margin: 0 auto;
+    
+}
+
+
+/* FOOTER ________________________________________________________________________*/
+.footer {
+    display: flex;
+    position: relative;
+    max-height: 10%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    padding-left: 2rem;
+}
+
+footer {
+    background-color: #58d3e4;
+    width: 100%;
+    height: 15%;
+    margin-top: 3rem;
+}
+
+.linkedin,
+.contact-foot {
+    padding-left: 100px;
+}
+
+/* FOOTER ________________________________________________________________________*/
+
+
+
+
+/* HEADER ________________________________________________________________________*/
+.entet {
+    display: flex;
+    /* justify-content: space-between;    */
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    /* super important pour se faciliter la vie*/
+}
+
+.entet ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.entet .lien {
+    display: flex;
+    flex: auto;
+    list-style: none;
+    font-size: 18;
+    text-decoration: none;
+}
+
+.entet .lien a:hover {
+    color: #a5b4fc;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+
+
+.nomDev {
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #9de119;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nom {
+    display: flex;
+    font-size: 20px;
+    color: #58d3e4;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+
+}
+
+.moi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+
+}
+
+.moi img {
+    margin: 0.5rem;
+    padding: 1rem;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 60px;
+    padding: 3px;
+
+    border-radius: 50%;
+}
+
+/* HEADER ________________________________________________________________________*/
+
+
+
+
+
+h2 {
+   
+    margin-bottom: 1.5rem;
+   
+    color: rgb(235, 253, 233)
+}
+
+
+/* Mettre une bordure sur les td ET les th */
+
+td,
+th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.tableau {
+    margin: 5% auto 5% auto;
+    color: white;
+    text-align: auto;
+    width: 100%;
+    border-collapse: collapse;
+    align-items: auto;
+}
+
+
+.mathilde p {
+    margin-left: 30px;
+    max-width: 80%;
+    margin-bottom: 30px;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    /*text-align: center;*/
+}
+
+.mathil .h1 {
+    margin: 30px;
+    font-size: 30px;
+    color: #58d3e4;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+caption {
+    font-size: px;
+    margin-bottom: 20px;
+    color: #58d3e4;
+}
+
+strong {
+    color: #58d3e4;
+}
+
+.video {
+    display: flex;
+   justify-content: center;
+}
+
+
+
+.section-interet {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+
+}
+
+.section-interet .interet a {
+    text-decoration: none;
+    color: #58d3e4;
+}
+
+.section-interet .interet a:hover {
+    color: #9de119;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section-interet .interet p {
+    color: #d5dada99;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+
+}
+
+.section-interet .interet h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #58d3e4;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+}
+
+.section-interet .interet {
+    flex: 2;
+    padding: 2rem;
+    background-color: var(--color-contrast);
+    max-height: 400px;
+   
+}
+
+.liste_interet ol {
+    padding: 2rem 0.5rem;
+    list-style-type: none;
+  
+}
+
+.section-interet .liste_interet {
+    flex: 2;
+    padding-top: 3rem;
+    margin: auto;
+    letter-spacing: 0.15rem;
+
+
+}
+
+
+
+.section-interet .liste_interet i {
+  
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+}
+
+.section-interet .liste_interet .number {
+    padding-top: 15px;
+  
+}
+
+ .liste_interet li {
+   border-left: 1px dashed;
+   
+   
+}
+
+
+
+
+
+
+
+
+/* PAGE CONTAT*/
+
+
+
+
+.page-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-contact .mail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    
+}
+
+.page-contact .mail a i {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    padding-left: 2rem;
+}
+
+.page-contact .formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 2rem 1rem 2rem;
+    gap: 3rem;
+}
+
+.page-contact .formulaire .coordonnees {
+    flex: 1;
+}
+
+.page-contact .formulaire .coordonnees .coordo p {
+    margin-bottom: 5px;
+}
+
+.page-contact .formulaire .coordonnees .coordo input {
+    margin-bottom: 10px;
+}
+
+
+
+.page-contact .formulaire .textearea {
+    flex: 1;
+}
+
+fieldset {
+    border: 3px solid rgb(98, 37, 241);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.dalto,
+.cnv {
+    padding-top: 1rem;
+}
+
+.le-bouton {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 2rem;
+    border: solid 2px #747cdf;
+    outline-color: #747cdf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.le-bouton-textearea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: solid 2px #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 85%;
+    cursor: pointer;
+}
+
+.le-bouton-liste {
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 0.5rem;
+    background-color: #f8f8f8;
+    border: solid 2px #747cdf;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.le-bouton-radio {
+
+    margin-right: 0.5rem;
+    background-color: #f8f8f8;
+    border: solid 2px #747cdf;
+    cursor: pointer;
+}
+
+.le-bouton-envoyer {
+    font-size: 18px;
+    margin-top: 3rem;
+    padding: 2rem 4rem;
+    background-color: #f8f8f8;
+    border: solid 2px #747cdf;
+    outline-color: #747cdf;
+    border-radius: 5px;
+}
+
+.envoyer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.le-bouton-envoyer:hover {
+    background-color: #9de119;
+    border: solid 4px #747cdf;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+
+.liste-question {
+    padding: 0.5rem 32px 1rem 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-a-propos {
+    margin: 0 auto;
+    display: flex;
+}
+
+.a-propos {
+    flex: 2;
+    color: #d5dada99;
+    background-color: var(--color-contrast);
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    padding: 2rem;
+    
+
+
+  
+}
+.section-a-propos .a-propos h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #58d3e4;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+}
+
+
+
+.section-a-propos .competence {
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+
+}
+
+.competence{
+   justify-content: center;
+}
+
+.etudes {
+    flex: 1;
+   
+}
+.diplome {
+    display: flex;
+    flex: 1;
+}
+.diplome h4{
+ color: white;
+}
+
+.competence h2{
+    color: #ffffff;
+}
+.compe-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.compe-tof {
+    display: flex;
+    width: 4rem;
+    color: rgb(255, 255, 255);
+    margin: 0.2rem;
+}
+
+
+h2 {
+    color: #58d3e4;
+    font-size: 18px;
+}
+
+.etudes .dilpome h2 {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-a-propos .competence {
+    margin-top: 50 px;
+}
+
+.compe-info,
+.etudes {
+    margin-top: 50px;
+}
+
+.etudes {
+    margin-right: 50px;
+}
+
+.diplome-diplome {
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: #58d3e4;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+
+}
+
+.mathilde thead{
+    position: sticky;
+    top: 0;
+    background-color: ;
+}
