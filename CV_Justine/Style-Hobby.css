@@ -1,0 +1,139 @@
+*{
+  background-color:#fff0f3;
+}
+
+
+.container{
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.Hobbies {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Hobbies {
+
+
+    /*Italique */
+    font-size: 40px;
+    /*Taille police*/
+ 
+    
+}
+
+
+
+.block {
+    border: 10px solid paleturquoise;
+    padding: .7em;
+  } 
+
+
+  .block2 {
+    border: 10px solid palevioletred;
+    padding: .7em;
+  } 
+
+  .block3 {
+    border: 10px solid palegreen;
+    padding: .7em;
+  } 
+
+/*Boites : Permet de mettre en page des éléments regroupés entre eux. Une boite applique des regles de mise en forme, il en existe deux types : bloc ou ligne.
+Ainsi les éléments à l'interieur de la boite (texte, images...) obéirons au caractéristiques de cette dernière */
+
+
+.Sportifs {
+   
+    font-size: 50px;
+    /*Taille police*/
+    color:aqua;
+    /*Couleur police*/
+    font-weight : 800;
+   
+}
+
+.Sportifs {
+    display: flex;
+   justify-content : center
+  }
+
+
+.Créatifs {
+  font-size: 50px;
+  color: magenta;
+}
+
+.Autres {
+  
+    font-size: 50px;
+    /*Taille police*/
+
+    color: green;
+    /*Couleur police*/
+}
+
+.Autres {
+    display: flex;
+   justify-content : center
+  }
+
+  .recettes {
+    display: flex;
+   justify-content : flex-end
+  }
+
+  .paragraph {
+    font-size: 30px;
+    /*Taille police*/
+
+    color: #ffb3c1;
+    /*Couleur police*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boutoncontact { 
+
+    box-sizing : border-box
+
+ }
+
+
+.blockcontact {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+  }
+
+  .blockcontact2 {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+  }
+
+
+.navigation {
+    display: flex;
+    justify-content : space-around ; align-items : center
+   
+
+
+}
+.navigation {
+
+    font-size: 40px;
+    /*Taille police*/
+  
+}

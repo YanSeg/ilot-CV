@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="container">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style-contact.css">
+
+</head>
+
+
+<body class="container">
+
+    <div class="Container blockcontact">
+        <div class="navigation">
+
+
+            <div class="boutoncontactt">
+                <p><strong> <a href="Indexversion2.html"> Accueil CV</a>
+                    </strong></p>
+            </div>
+
+            <div class="boutoncontactt2">
+                <p> <strong><a href="Hobby.html">Hobbies</a></strong></p>
+            </div>
+
+            <p>
+                <strong>
+                    <a href="#">Index</a>
+                </strong>
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class=Imageprofil><img src="Images/IMG_20230403_111911n.jpg" alt="PhotoID" width="400" class="Grostitre">
+        DESCHAMPS Justine </div>
+
+
+    <div class="textepresentation">
+
+        <p>"Passionnée d'informatique, j'ai eu l'occasion d'approcher de nombreux domaines de ce milieu et de developper
+            mes
+            capacités d'adaptation et d'apprentissage. Curieuse, rigoureuse, j'aime découvrir de nouvelles choses et ne
+            recule
+            devant aucun défis !"</p>
+
+
+    </div>
+
+
+
+    <div class="contact_et_formulaire">
+        <div class=bloccontact>
+
+            <div class="CONTACT">
+                <h1 class="Grostitre"> DESCHAMPS Justine</h1>
+                <h2 class="Grostitre"> Technicienne DevOps</h2>
+
+                <div>
+
+                    <img src="Images/telp.JPG" alt="Icone telephone">
+                    <p> 06.24.85.50.22</p>
+
+                </div>
+
+                <div>
+
+                    <img src="Images/mail.JPG" alt="Icone mail">
+                    <p> deschamps.justine38@hotmail.fr</p>
+
+                </div>
+
+                <div>
+                    <img src="Images/maison.JPG" alt="Icone maison">
+                    <p> 13 Rue du Taillefer 38600 - FONTAINE </p>
+                </div>
+
+            </div>
+
+
+            <!-- Formulaire de contact  -->
+            <div class="formulairecomplet">
+                <div class="after_submit"></div>
+
+                <form action="https://httpbin.org" method="GET">
+                    <!--
+                GET : Passe par l’URL, est protégé mais limité à la taille de l’URL et visible de tous 
+                => pour les paramètres d’un site Web (filtres, tri, saisies de recherche, etc.)
+
+                POST  : Passe par la requête, n’a pas de limite de texte et est invisible mais moins sécurisée. 
+                => pour la transmission des informations et des données de l’utilisateur.-->
+
+
+
+                    <!-- 
+                        
+                     <form action="http://foo.com" method="get">  
+                        Host: https://httpbin.org/post -->
+
+
+                    <p class="Formulaire"><strong>Formulaire de contact </strong> </p>
+
+
+                    <div>
+
+
+<div class = centrage>
+                        <fieldset>
+                            <legend>Vous etes:</legend>
+
+                            <div>
+                                <input type="radio" id="genre-homme" name="genre" value="homme" checked>
+                                <label for="genre-homme">Un homme</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="genre-femme" name="genre" value="femme">
+                                <label for="genre-femme">Une femme</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="genre-nongenre" name="genre" value="non genré">
+                                <label for="genre-nongenre">Non genré</label>
+
+                            </div>
+
+                        </fieldset>
+
+                    </div>
+
+
+                    <div class="row"><br>
+                        <label for="motif">Vous souhaitez me contacter pour une
+                            raison:</label>
+
+                        <select name="reason" id="motif">
+                            <option value="">--Choisissez une option--</option>
+                            <option value="Professionelle">Professionelle</option>
+                            <option value="Personnelle">Personnelle</option>
+                            <option value="Sansmotif">Sans motif</option>
+
+                        </select>
+
+
+                    </div>
+
+                    <div class="row">
+                        <br>
+                        <label class="required" for="name"> Nom/Prénom:</label>
+                        <input id="name" class="input" name="name" type="text" required size="70">
+                        <span id="name_validation" class="error_message"></span>
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <br>
+                        <label class="required" for=phone>Téléphone:</label>
+                        <input id="phone" name="phone" type="number" size="20" maxlength="10" />
+
+
+
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <br>
+                        <label class="required" for="email">Email:</label>
+                        <input id="email" class="input" name="email" type="email" required size="70">
+                        <span id="email_validation" class="error_message"></span>
+
+
+                    </div>
+
+
+                    <div class="row message">
+
+                        <br>
+                        <label class="required" for="message">Message:</label>   
+                        <textarea id="message" class="input" name="message" rows="12" ></textarea>
+                        <span id="message_validation" class="error_message"></span>
+
+
+
+                    </div>
+
+                    <button>Envoyer</button>
+
+
+
+
+                    <!-- <a href="mailto:justine.deschamps@le-campus-numerique.fr" class="btn btn-primary">Contactez-moi !</a> -->
+
+                    <!--  Formulaire de contact  -->
+
+                    <div class="after_submit"></div>
+
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

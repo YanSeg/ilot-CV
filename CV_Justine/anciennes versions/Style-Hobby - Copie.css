@@ -1,0 +1,74 @@
+*{
+  background-color:#fff0f3;
+}
+
+
+.container_barrecontact {
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container_titreintro {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+    /*Italique */
+    font-size: 40px;
+    /*Taille police*/
+    color: magenta;
+}
+
+.container_Sportif {
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid paleturquoise;
+  padding: .7em;
+  font-size: 50px;
+  /*Taille police*/
+  
+  
+}
+
+
+
+.container_créatif {
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid palevioletred;
+  padding: .7em;
+  font-size: 50px;
+  /*Taille police*/
+  
+}
+
+.container_autres {
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid palegreen;
+  padding: .7em;
+  font-size: 50px;
+  /*Taille police*/
+  
+}
+
+
+
+
+
+
+
+ 

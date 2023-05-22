@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("fonts_stocked\PlayfairDisplay-Black.ttf");
+}
+
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.navigation {
+
+    font-size: 20px;
+    position: sticky;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.hero {
+
+    background-color: #fcd5ce;
+    font-size: 20px;
+    color: #95d5b2;
+    align-items: center
+}
+
+img {
+
+    border-radius: 30px;
+}
+
+
+.section-textepresentation {
+    background-color: #e8e8e4;
+}
+
+.textepresentation {
+
+    background-color: #e8e8e4;
+    font-size: 20px;
+    color: #ffb3c1;
+
+
+}
+
+.contact {
+    background-color: #ffe5d9;
+    font-size: 20px;
+    color: #ffb3c1;
+    
+
+}
+
+
+.section-competences {
+    background-color: #fcd5ce;
+}
+
+
+.competences {
+    background-color: #fcd5ce;
+    font-size: 20px;
+    color: #95d5b2;
+    align-items: center
+}
+
+
+.hobbies {
+    background-color: #e8e8e4;
+    font-size: 20px;
+    color: #ffb3c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+.section-experiences{
+    flex-direction: column;
+    align-items: center
+}
+
+.experiences table {
+    background-color: #fae1dd;
+    font-size: 20px;
+    color: #95d5b2;
+    align-items: center
+}
+
+.ensavoir {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+table td {
+    border-style:ridge;
+
+
+}
+
+.experiences{
+    background-color: #fae1dd;
+    align-items: center
+}
